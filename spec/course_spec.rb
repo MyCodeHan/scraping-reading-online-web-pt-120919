@@ -27,4 +27,19 @@ describe "Course" do
       end
     end
   end
+
+
+  context "class methods" do 
+    describe ".all" do 
+      it "returns and array of all the instances of the Course class" do
+        Course.reset_all
+        course_one = Course.new
+        course_two = Course.new
+        course_three = Course.new 
+        expect(Course.all).to match_array([course, course_one, course_two, course_three])
+      end
+    end
+  end
 end
+
+
