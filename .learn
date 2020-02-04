@@ -1,8 +1,7 @@
-tags: 
+tags:
+  - object orientation
   - scraping
   - nokogiri
-  - open-uri
-  - xml
 languages: 
-  - ruby
-resources: 1
+  - Ruby
+resources: 0
